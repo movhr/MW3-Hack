@@ -1,9 +1,6 @@
 #include "Menu.h"
 #include "ColorDefinitions.h"
-
-// TODO:
-// Separate continuous hacks from on demand hacks
-
+#pragma once
 LPDIRECT3DDEVICE9 g_pDevice = NULL;
 oReset pReset;
 oEndScene pEndScene;

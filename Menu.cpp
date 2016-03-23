@@ -1,6 +1,7 @@
 #include "Menu.h"
 #include "ColorDefinitions.h"
 #include "Hacks.h"
+#pragma once
 
 void Menu::CreateItem(char * title, int *toggle, HEADER *parentHeader, int hacktype)
 {

@@ -1,5 +1,4 @@
-#include <iostream>
-//#include <math.h>
+#pragma once
 char rapidfireModValOn[2] = { 0xEB, 0x2C };
 char rapidfireModValOff[2] = { 0x74, 0x14 };
 trace_t t;
